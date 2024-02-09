@@ -725,14 +725,12 @@ Engagement Pics
 /* ==========================================================================
 Embed video
 ========================================================================== */
-/* Adjust height and margin for video backgrounds */
 #video-bg-dhanbad,
 #video-bg-mumbai {
-  height: 500px; /* Adjust the height as needed */
-  margin-bottom: 5%; /* Adjust the margin bottom as needed */
+  height: 500px;
+  margin-bottom: 5%;
 }
 
-/* Style for the video content */
 #video-content-mumbai,
 #video-content-dhanbad {
   width: 100%;
@@ -743,7 +741,6 @@ Embed video
   text-align: center;
 }
 
-/* Style for the headings in the video content */
 #video-content-mumbai h5,
 #video-content-dhanbad h5 {
   color: #ffffff;
@@ -752,7 +749,6 @@ Embed video
   letter-spacing: 10px;
 }
 
-/* Style for the paragraphs in the video content */
 #video-content-mumbai p,
 #video-content-dhanbad p {
   color: #ffffff;
