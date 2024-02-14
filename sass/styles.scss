@@ -849,3 +849,15 @@ body.modal-open {
   font-family: "Protest Riot";
   padding-top: 10%;
 }
+
+@media (min-width:"700px"){
+  .reception{
+    text-align: center;
+    width: 50%;
+  } 
+
+  .reception-div{
+    display: flex;
+    justify-content: center;
+  }
+}
