@@ -850,6 +850,24 @@ body.modal-open {
   padding-top: 10%;
 }
 
+.mobile-view{
+  display: none;
+}
+
+.desktop-view{
+  display: block;
+}
+
+@media (max-width: 992px) {
+    .desktop-view{
+      display: none;
+    }
+
+    .mobile-view{
+      display: block;
+    }
+}
+
 @media (min-width:"700px"){
   .reception{
     text-align: center;
