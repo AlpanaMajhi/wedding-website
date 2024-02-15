@@ -731,6 +731,13 @@ Embed video
   margin-bottom: 5%;
 }
 
+@media(max-width: 700px) {
+  #video-bg-dhanbad,
+#video-bg-mumbai{
+  height: auto;
+}
+}
+
 #video-content-mumbai,
 #video-content-dhanbad {
   width: 100%;
